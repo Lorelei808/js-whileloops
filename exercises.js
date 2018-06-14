@@ -17,9 +17,11 @@ while (i<10){
 
 
 /*1. Use a while loop and print out a list of numbers from 1 to 10*/
-
-
-
+console.log("1---------------------------------------");
+var i = 1
+while(i < 11){
+	console.log(i++)
+}
 /*2. Use a while loop to create the following message:
 
 "Now serving 1."
@@ -28,7 +30,12 @@ while (i<10){
 ...
 ...
 "Now serving 11"*/
+console.log('2--------------------');
 
+var i = 1
+while(i < 12){
+	console.log("Now serving # " + i++ + ".");
+}
 
 
 /*3. Use a while loop to loop through the tvShows array and print out the following:
@@ -38,9 +45,13 @@ while (i<10){
 "I like to binge watch The Bachelor."
 "I like to binge watch The Walking Dead."
 "I like to binge watch Keeping up with the Kardasians."*/
-
+console.log('3------------------')
 var tvShows = ["Breaking Bad", "Game of Thrones", "The Bachelor", "The Walking Dead", "Keeping Up with the Kardasians"];
 
+var i = 0
+while(i < 6){
+	console.log("I like to binge watch " + i + ".");
+}
 
 
 /*4. Generate a multiplication table for the number 3 and print out the following:
